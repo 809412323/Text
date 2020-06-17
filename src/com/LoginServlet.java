@@ -36,5 +36,6 @@ public class LoginServlet extends HttpServlet {
         req.setAttribute("dateStr","2020年06月12日 15:30:20");
 
         req.getRequestDispatcher("/success3.jsp").forward(req, resp);
+        System.out.println("qqq");
     }
 }
